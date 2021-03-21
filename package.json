@@ -1,0 +1,14 @@
+{
+  "name": "messenger-backend",
+  "version": "1.0.0",
+  "author": "kholoddev@icloud.com",
+  "license": "ISC",
+  "scripts": {
+    "start": "",
+    "build": "",
+    "dev": "",
+    "test": "",
+    "test:watch": "",
+    "eslint": ""
+  }
+}
