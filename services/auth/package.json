@@ -1,14 +1,17 @@
 {
-  "name": "messenger-backend",
+  "name": "auth",
   "version": "1.0.0",
   "author": "kholoddev@icloud.com",
   "license": "ISC",
   "scripts": {
     "start": "",
     "build": "",
-    "dev": "",
+    "dev": "node src/main.js",
     "test": "",
     "test:watch": "",
     "eslint": ""
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }

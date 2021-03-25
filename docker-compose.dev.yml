@@ -1,0 +1,14 @@
+version: '3.8'
+
+services: 
+  auth:
+    container_name: app-service
+    build:
+      context: ./services/auth
+      dockerfile: Dockerfile.dev
+    volumes:
+      - ./services/auth/src:./src
+    ports: 
+      - 3001:3001
+    environment:
+      - NODE_ENV=development
